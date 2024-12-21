@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "usps.api.base-url",
+    "type": "java.lang.String",
+    "description": "A description for 'usps.api.base-url'"
+  },
+  {
+    "name": "usps.api.user-id",
+    "type": "java.lang.String",
+    "description": "A description for 'usps.api.user-id'"
+  }
+]}
