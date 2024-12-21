@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign In</title>
+    <style>
+        /* Basic reset and font style */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        .form-container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .form-container input:focus {
+            border-color: #4CAF50;
+            outline: none;
+        }
+
+        .form-container button {
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #45a049;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 14px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+		.success-message {
+            color: green;
+            font-size: 14px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .signup-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .signup-link a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        .signup-link a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 480px) {
+            .form-container {
+                padding: 20px;
+            }
+
+            .form-container input, .form-container button {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Sign In</h2>
+       	<p th:if="${success}" class="success-message">Successfully created account!!</p>
+        
+        <form th:action="@{/signin}" th:method="post" th:object="${loginDto}">
+            <!-- Username field -->
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" th:field="*{username}" required placeholder="Enter your username">
+            </div>
+
+            <!-- Password field -->
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" th:field="*{password}" required placeholder="Enter your password">
+            </div>
+
+            <!-- Error Message -->
+            <div th:if="${#fields.hasErrors()}" class="error-message">
+                <ul>
+                    <li th:each="err : ${#fields.errors()}">
+                        <span th:text="${err}"></span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Submit button -->
+            <div>
+                <button type="submit">Sign In</button>
+            </div>
+        </form>
+
+        <!-- Display error message if login fails -->
+        <p th:if="${error}" class="error-message">Invalid username or password. Please try again.</p>
+        <div class="signup-link">
+            <p>Don't have an account? <a href="/signup">Sign Up</a></p>
+        </div>
+    </div>
+</body>
+</html>

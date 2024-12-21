@@ -1,0 +1,860 @@
+2024-11-28 14:46:25 - Securing GET /logout
+2024-11-28 14:46:25 - Logging out [null]
+2024-11-28 14:46:25 - Redirecting to /signin?logout
+2024-11-28 14:46:25 - Securing GET /signin?logout
+2024-11-28 14:46:25 - token inside jwtFilter is : 
+2024-11-28 14:46:25 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:46:25 - Secured GET /signin?logout
+2024-11-28 14:46:26 - Securing GET /signup
+2024-11-28 14:46:26 - token inside jwtFilter is : 
+2024-11-28 14:46:26 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:46:26 - Secured GET /signup
+2024-11-28 14:47:35 - Securing GET /signin
+2024-11-28 14:47:35 - token inside jwtFilter is : 
+2024-11-28 14:47:35 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:47:35 - Secured GET /signin
+2024-11-28 14:47:40 - Securing GET /signup
+2024-11-28 14:47:40 - token inside jwtFilter is : 
+2024-11-28 14:47:40 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:47:40 - Secured GET /signup
+2024-11-28 14:47:43 - Securing GET /signin
+2024-11-28 14:47:43 - token inside jwtFilter is : 
+2024-11-28 14:47:43 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:47:43 - Secured GET /signin
+2024-11-28 14:47:52 - Securing POST /signin
+2024-11-28 14:47:52 - token inside jwtFilter is : 
+2024-11-28 14:47:52 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:47:52 - Secured POST /signin
+2024-11-28 14:47:54 - Authenticated user
+2024-11-28 14:47:54 - token is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU0NzQsImV4cCI6MTczMzE0NTQ3NH0.ZOkWwH9qNLj1G1jo6YCedMqW9d1fnhFPmOGbF4sAtXY
+2024-11-28 14:47:54 - Securing GET /suser
+2024-11-28 14:47:54 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU0NzQsImV4cCI6MTczMzE0NTQ3NH0.ZOkWwH9qNLj1G1jo6YCedMqW9d1fnhFPmOGbF4sAtXY
+2024-11-28 14:47:54 - Secured GET /suser
+2024-11-28 14:47:54 - role is USER
+2024-11-28 14:48:01 - Securing GET /suser/addLocation
+2024-11-28 14:48:01 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU0NzQsImV4cCI6MTczMzE0NTQ3NH0.ZOkWwH9qNLj1G1jo6YCedMqW9d1fnhFPmOGbF4sAtXY
+2024-11-28 14:48:01 - Secured GET /suser/addLocation
+2024-11-28 14:48:01 - city list is [DELHI, BANGALORE, MUMBAI, NEW DELHI]
+2024-11-28 14:48:10 - Securing POST /suser/searchLocation
+2024-11-28 14:48:10 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU0NzQsImV4cCI6MTczMzE0NTQ3NH0.ZOkWwH9qNLj1G1jo6YCedMqW9d1fnhFPmOGbF4sAtXY
+2024-11-28 14:48:10 - Secured POST /suser/searchLocation
+2024-11-28 14:48:10 - city is in false
+2024-11-28 14:48:10 - city list is [DELHI, BANGALORE, MUMBAI, NEW DELHI]
+2024-11-28 14:49:20 - Securing POST /suser/searchLocation
+2024-11-28 14:49:20 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU0NzQsImV4cCI6MTczMzE0NTQ3NH0.ZOkWwH9qNLj1G1jo6YCedMqW9d1fnhFPmOGbF4sAtXY
+2024-11-28 14:49:20 - Secured POST /suser/searchLocation
+2024-11-28 14:49:20 - city is in true
+2024-11-28 14:49:30 - Securing POST /suser/searchLocation
+2024-11-28 14:49:30 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU0NzQsImV4cCI6MTczMzE0NTQ3NH0.ZOkWwH9qNLj1G1jo6YCedMqW9d1fnhFPmOGbF4sAtXY
+2024-11-28 14:49:30 - Secured POST /suser/searchLocation
+2024-11-28 14:49:30 - city is in false
+2024-11-28 14:49:30 - city list is [DELHI, BANGALORE, MUMBAI, NEW DELHI]
+2024-11-28 14:49:49 - Securing POST /suser/searchLocation
+2024-11-28 14:49:49 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU0NzQsImV4cCI6MTczMzE0NTQ3NH0.ZOkWwH9qNLj1G1jo6YCedMqW9d1fnhFPmOGbF4sAtXY
+2024-11-28 14:49:49 - Secured POST /suser/searchLocation
+2024-11-28 14:49:49 - city is in true
+2024-11-28 14:50:51 - Starting SecurityapiApplication using Java 21.0.3 with PID 8504 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 14:50:51 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 14:50:56 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 14:50:57 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 14:50:57 - Started SecurityapiApplication in 6.768 seconds (process running for 7.736)
+2024-11-28 14:50:58 - Securing GET /signin
+2024-11-28 14:50:58 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU0NzQsImV4cCI6MTczMzE0NTQ3NH0.ZOkWwH9qNLj1G1jo6YCedMqW9d1fnhFPmOGbF4sAtXY
+2024-11-28 14:50:59 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.security.SignatureException: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+	at io.jsonwebtoken.impl.DefaultJwtParser.verifySignature(DefaultJwtParser.java:340)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:577)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:362)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:94)
+	at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:36)
+	at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:29)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:94)
+	at com.credai.securityapi.components.JwtTokenProvider.validateToken(JwtTokenProvider.java:58)
+	at com.credai.securityapi.components.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:58)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-11-28 14:50:59 - Securing GET /error
+2024-11-28 14:50:59 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:51:00 - Securing GET /signin
+2024-11-28 14:51:00 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU0NzQsImV4cCI6MTczMzE0NTQ3NH0.ZOkWwH9qNLj1G1jo6YCedMqW9d1fnhFPmOGbF4sAtXY
+2024-11-28 14:51:00 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.security.SignatureException: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+	at io.jsonwebtoken.impl.DefaultJwtParser.verifySignature(DefaultJwtParser.java:340)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:577)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:362)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:94)
+	at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:36)
+	at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:29)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:94)
+	at com.credai.securityapi.components.JwtTokenProvider.validateToken(JwtTokenProvider.java:58)
+	at com.credai.securityapi.components.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:58)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-11-28 14:51:00 - Securing GET /error
+2024-11-28 14:51:00 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:51:03 - Securing GET /signin
+2024-11-28 14:51:03 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU0NzQsImV4cCI6MTczMzE0NTQ3NH0.ZOkWwH9qNLj1G1jo6YCedMqW9d1fnhFPmOGbF4sAtXY
+2024-11-28 14:51:03 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.security.SignatureException: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+	at io.jsonwebtoken.impl.DefaultJwtParser.verifySignature(DefaultJwtParser.java:340)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:577)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:362)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:94)
+	at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:36)
+	at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:29)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:94)
+	at com.credai.securityapi.components.JwtTokenProvider.validateToken(JwtTokenProvider.java:58)
+	at com.credai.securityapi.components.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:58)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-11-28 14:51:03 - Securing GET /error
+2024-11-28 14:51:03 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:51:08 - Securing GET /logout
+2024-11-28 14:51:08 - Logging out [null]
+2024-11-28 14:51:08 - Redirecting to /signin?logout
+2024-11-28 14:51:08 - Securing GET /signin?logout
+2024-11-28 14:51:08 - token inside jwtFilter is : 
+2024-11-28 14:51:08 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:51:08 - Secured GET /signin?logout
+2024-11-28 14:51:14 - Securing POST /signin
+2024-11-28 14:51:14 - token inside jwtFilter is : 
+2024-11-28 14:51:14 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:51:14 - Secured POST /signin
+2024-11-28 14:51:16 - Authenticated user
+2024-11-28 14:51:16 - token is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU2NzYsImV4cCI6MTczMzE0NTY3Nn0.OQZePmsqp8pUy1JjCZtm9LOY2ChCpDiiAX7POJxzeMU
+2024-11-28 14:51:16 - Securing GET /suser
+2024-11-28 14:51:16 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU2NzYsImV4cCI6MTczMzE0NTY3Nn0.OQZePmsqp8pUy1JjCZtm9LOY2ChCpDiiAX7POJxzeMU
+2024-11-28 14:51:17 - Secured GET /suser
+2024-11-28 14:51:17 - role is USER
+2024-11-28 14:51:18 - Securing GET /suser/addLocation
+2024-11-28 14:51:18 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU2NzYsImV4cCI6MTczMzE0NTY3Nn0.OQZePmsqp8pUy1JjCZtm9LOY2ChCpDiiAX7POJxzeMU
+2024-11-28 14:51:18 - Secured GET /suser/addLocation
+2024-11-28 14:51:18 - city list is [DELHI, BANGALORE, MUMBAI, NEW DELHI]
+2024-11-28 14:51:25 - Securing POST /suser/searchLocation
+2024-11-28 14:51:25 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU2NzYsImV4cCI6MTczMzE0NTY3Nn0.OQZePmsqp8pUy1JjCZtm9LOY2ChCpDiiAX7POJxzeMU
+2024-11-28 14:51:25 - Secured POST /suser/searchLocation
+2024-11-28 14:51:25 - city is in true
+2024-11-28 14:51:35 - Securing GET /suser
+2024-11-28 14:51:35 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU2NzYsImV4cCI6MTczMzE0NTY3Nn0.OQZePmsqp8pUy1JjCZtm9LOY2ChCpDiiAX7POJxzeMU
+2024-11-28 14:51:35 - Secured GET /suser
+2024-11-28 14:51:35 - role is USER
+2024-11-28 14:51:36 - Securing GET /suser/addLocation
+2024-11-28 14:51:36 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU2NzYsImV4cCI6MTczMzE0NTY3Nn0.OQZePmsqp8pUy1JjCZtm9LOY2ChCpDiiAX7POJxzeMU
+2024-11-28 14:51:36 - Secured GET /suser/addLocation
+2024-11-28 14:51:36 - city list is [DELHI, BANGALORE, MUMBAI, NEW DELHI]
+2024-11-28 14:51:41 - Securing GET /suser
+2024-11-28 14:51:41 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU2NzYsImV4cCI6MTczMzE0NTY3Nn0.OQZePmsqp8pUy1JjCZtm9LOY2ChCpDiiAX7POJxzeMU
+2024-11-28 14:51:41 - Secured GET /suser
+2024-11-28 14:51:41 - role is USER
+2024-11-28 14:51:44 - Securing GET /suser/addLocation
+2024-11-28 14:51:44 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU2NzYsImV4cCI6MTczMzE0NTY3Nn0.OQZePmsqp8pUy1JjCZtm9LOY2ChCpDiiAX7POJxzeMU
+2024-11-28 14:51:44 - Secured GET /suser/addLocation
+2024-11-28 14:51:44 - city list is [DELHI, BANGALORE, MUMBAI, NEW DELHI]
+2024-11-28 14:52:45 - Securing GET /suser
+2024-11-28 14:52:45 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODU2NzYsImV4cCI6MTczMzE0NTY3Nn0.OQZePmsqp8pUy1JjCZtm9LOY2ChCpDiiAX7POJxzeMU
+2024-11-28 14:52:45 - Secured GET /suser
+2024-11-28 14:52:45 - role is USER
+2024-11-28 14:52:47 - Securing GET /logout
+2024-11-28 14:52:47 - Logging out [null]
+2024-11-28 14:52:47 - Redirecting to /signin?logout
+2024-11-28 14:52:47 - Securing GET /signin?logout
+2024-11-28 14:52:47 - token inside jwtFilter is : 
+2024-11-28 14:52:47 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:52:47 - Secured GET /signin?logout
+2024-11-28 14:52:48 - Securing GET /signup
+2024-11-28 14:52:48 - token inside jwtFilter is : 
+2024-11-28 14:52:48 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:52:48 - Secured GET /signup
+2024-11-28 14:52:57 - Securing POST /signup
+2024-11-28 14:52:57 - token inside jwtFilter is : 
+2024-11-28 14:52:57 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:52:57 - Secured POST /signup
+2024-11-28 14:52:57 - Securing GET /signuperror
+2024-11-28 14:52:57 - token inside jwtFilter is : 
+2024-11-28 14:52:57 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:52:57 - Secured GET /signuperror
+2024-11-28 14:53:04 - Securing GET /signup
+2024-11-28 14:53:04 - token inside jwtFilter is : 
+2024-11-28 14:53:04 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:53:04 - Secured GET /signup
+2024-11-28 14:55:32 - Starting SecurityapiApplication using Java 21.0.3 with PID 15116 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 14:55:32 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 14:55:37 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 14:55:38 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 14:55:38 - Started SecurityapiApplication in 6.533 seconds (process running for 7.573)
+2024-11-28 14:57:54 - Starting SecurityapiApplication using Java 21.0.3 with PID 14180 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 14:57:54 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 14:58:00 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 14:58:00 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 14:58:00 - Started SecurityapiApplication in 6.477 seconds (process running for 7.45)
+2024-11-28 14:58:02 - Securing GET /signuperror
+2024-11-28 14:58:02 - token inside jwtFilter is : 
+2024-11-28 14:58:02 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:58:02 - Secured GET /signuperror
+2024-11-28 14:58:08 - Securing GET /signup
+2024-11-28 14:58:08 - token inside jwtFilter is : 
+2024-11-28 14:58:08 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:58:08 - Secured GET /signup
+2024-11-28 14:58:18 - Securing POST /signup
+2024-11-28 14:58:18 - token inside jwtFilter is : 
+2024-11-28 14:58:18 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:58:18 - Secured POST /signup
+2024-11-28 14:58:19 - Securing GET /signuperror
+2024-11-28 14:58:19 - token inside jwtFilter is : 
+2024-11-28 14:58:19 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:58:19 - Secured GET /signuperror
+2024-11-28 14:58:31 - Securing GET /signup
+2024-11-28 14:58:31 - token inside jwtFilter is : 
+2024-11-28 14:58:31 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:58:31 - Secured GET /signup
+2024-11-28 14:59:08 - Starting SecurityapiApplication using Java 21.0.3 with PID 17176 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 14:59:08 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 14:59:12 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 14:59:13 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 14:59:13 - Started SecurityapiApplication in 6.299 seconds (process running for 7.201)
+2024-11-28 14:59:14 - Securing GET /signuperror
+2024-11-28 14:59:14 - token inside jwtFilter is : 
+2024-11-28 14:59:14 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 14:59:14 - Secured GET /signuperror
+2024-11-28 15:00:59 - Securing GET /signup
+2024-11-28 15:00:59 - token inside jwtFilter is : 
+2024-11-28 15:00:59 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:00:59 - Secured GET /signup
+2024-11-28 15:01:05 - Securing GET /signin
+2024-11-28 15:01:05 - token inside jwtFilter is : 
+2024-11-28 15:01:05 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:01:05 - Secured GET /signin
+2024-11-28 15:05:41 - Starting SecurityapiApplication using Java 21.0.3 with PID 17880 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 15:05:41 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 15:05:45 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 15:05:46 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 15:05:46 - Started SecurityapiApplication in 6.367 seconds (process running for 7.237)
+2024-11-28 15:05:46 - Securing GET /signup
+2024-11-28 15:05:46 - token inside jwtFilter is : 
+2024-11-28 15:05:46 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:05:46 - Secured GET /signup
+2024-11-28 15:06:04 - Securing POST /signup
+2024-11-28 15:06:04 - token inside jwtFilter is : 
+2024-11-28 15:06:04 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:06:04 - Secured POST /signup
+2024-11-28 15:06:04 - Securing GET /signuperror
+2024-11-28 15:06:04 - token inside jwtFilter is : 
+2024-11-28 15:06:04 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:06:04 - Secured GET /signuperror
+2024-11-28 15:06:12 - Securing GET /signup
+2024-11-28 15:06:12 - token inside jwtFilter is : 
+2024-11-28 15:06:12 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:06:12 - Secured GET /signup
+2024-11-28 15:08:58 - Starting SecurityapiApplication using Java 21.0.3 with PID 9596 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 15:08:58 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 15:09:02 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 15:09:03 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 15:09:03 - Started SecurityapiApplication in 6.093 seconds (process running for 6.976)
+2024-11-28 15:09:03 - Securing GET /signin
+2024-11-28 15:09:03 - token inside jwtFilter is : 
+2024-11-28 15:09:03 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:09:03 - Secured GET /signin
+2024-11-28 15:09:08 - Securing POST /signin
+2024-11-28 15:09:08 - token inside jwtFilter is : 
+2024-11-28 15:09:08 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:09:08 - Secured POST /signin
+2024-11-28 15:09:10 - Authenticated user
+2024-11-28 15:09:10 - token is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg2NzUwLCJleHAiOjE3MzMxNDY3NTB9.5zhyxSIoePi_Kb28dZf8gat9_8JchwsnGctPSWyX9u4
+2024-11-28 15:09:10 - Securing GET /suser
+2024-11-28 15:09:10 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg2NzUwLCJleHAiOjE3MzMxNDY3NTB9.5zhyxSIoePi_Kb28dZf8gat9_8JchwsnGctPSWyX9u4
+2024-11-28 15:09:11 - Secured GET /suser
+2024-11-28 15:09:11 - role is ADMIN
+
+
+
+2024-11-28 15:11:14 - Starting SecurityapiApplication using Java 21.0.3 with PID 18464 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 15:11:14 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 15:11:18 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 15:11:19 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 15:11:19 - Started SecurityapiApplication in 6.04 seconds (process running for 6.819)
+2024-11-28 15:11:31 - Securing GET /logout
+2024-11-28 15:11:31 - Logging out [null]
+2024-11-28 15:11:31 - Redirecting to /signin?logout
+2024-11-28 15:11:31 - Securing GET /signin?logout
+2024-11-28 15:11:31 - token inside jwtFilter is : 
+2024-11-28 15:11:31 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:11:31 - Secured GET /signin?logout
+2024-11-28 15:11:36 - Securing POST /signin
+2024-11-28 15:11:36 - token inside jwtFilter is : 
+2024-11-28 15:11:36 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:11:36 - Secured POST /signin
+2024-11-28 15:11:38 - Authenticated user
+2024-11-28 15:11:38 - token is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg2ODk4LCJleHAiOjE3MzMxNDY4OTh9.7-kRMusqjiEXJKbyz2G_pNTYnZ7cGz0Sb1cUSJXGoMg
+2024-11-28 15:11:38 - Securing GET /suser
+2024-11-28 15:11:38 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg2ODk4LCJleHAiOjE3MzMxNDY4OTh9.7-kRMusqjiEXJKbyz2G_pNTYnZ7cGz0Sb1cUSJXGoMg
+2024-11-28 15:11:39 - Secured GET /suser
+2024-11-28 15:11:39 - role is ADMIN
+2024-11-28 15:12:55 - Starting SecurityapiApplication using Java 21.0.3 with PID 13436 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 15:12:55 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 15:13:00 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 15:13:00 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 15:13:01 - Started SecurityapiApplication in 6.903 seconds (process running for 7.818)
+2024-11-28 15:13:01 - Securing GET /logout
+2024-11-28 15:13:01 - Logging out [null]
+2024-11-28 15:13:01 - Redirecting to /signin?logout
+2024-11-28 15:13:01 - Securing GET /signin?logout
+2024-11-28 15:13:01 - token inside jwtFilter is : 
+2024-11-28 15:13:01 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:13:01 - Secured GET /signin?logout
+2024-11-28 15:13:06 - Securing POST /signin
+2024-11-28 15:13:06 - token inside jwtFilter is : 
+2024-11-28 15:13:06 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:13:06 - Secured POST /signin
+2024-11-28 15:13:08 - Failed to authenticate since password does not match stored value
+2024-11-28 15:13:13 - Securing POST /signin
+2024-11-28 15:13:13 - token inside jwtFilter is : 
+2024-11-28 15:13:13 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:13:13 - Secured POST /signin
+2024-11-28 15:13:15 - Authenticated user
+2024-11-28 15:13:15 - token is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg2OTk1LCJleHAiOjE3MzMxNDY5OTV9.P6RAK-u8VQ3JkKvJByuCbJcKf4WM_aQ3u9fIOLy5jlo
+2024-11-28 15:13:15 - Securing GET /suser
+2024-11-28 15:13:15 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg2OTk1LCJleHAiOjE3MzMxNDY5OTV9.P6RAK-u8VQ3JkKvJByuCbJcKf4WM_aQ3u9fIOLy5jlo
+2024-11-28 15:13:15 - Secured GET /suser
+2024-11-28 15:13:15 - role is ADMIN
+2024-11-28 15:13:45 - Starting SecurityapiApplication using Java 21.0.3 with PID 8024 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 15:13:45 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 15:13:50 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 15:13:50 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 15:13:51 - Started SecurityapiApplication in 6.262 seconds (process running for 7.271)
+2024-11-28 15:14:50 - Starting SecurityapiApplication using Java 21.0.3 with PID 4532 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 15:14:50 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 15:14:56 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 15:14:57 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 15:14:58 - Started SecurityapiApplication in 8.568 seconds (process running for 9.828)
+2024-11-28 15:15:00 - Securing GET /logout
+2024-11-28 15:15:00 - Logging out [null]
+2024-11-28 15:15:00 - Redirecting to /signin?logout
+2024-11-28 15:15:00 - Securing GET /signin?logout
+2024-11-28 15:15:00 - token inside jwtFilter is : 
+2024-11-28 15:15:00 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:15:00 - Secured GET /signin?logout
+2024-11-28 15:15:05 - Securing POST /signin
+2024-11-28 15:15:05 - token inside jwtFilter is : 
+2024-11-28 15:15:05 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:15:05 - Secured POST /signin
+2024-11-28 15:15:07 - Authenticated user
+2024-11-28 15:15:07 - token is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg3MTA3LCJleHAiOjE3MzMxNDcxMDd9.0WF5DmtSXbhiFyO6t__95nn5xs069pspmcUYyzKHO_4
+2024-11-28 15:15:07 - Securing GET /suser
+2024-11-28 15:15:07 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg3MTA3LCJleHAiOjE3MzMxNDcxMDd9.0WF5DmtSXbhiFyO6t__95nn5xs069pspmcUYyzKHO_4
+2024-11-28 15:15:08 - Secured GET /suser
+2024-11-28 15:15:08 - role is ADMIN
+2024-11-28 15:15:23 - Securing GET /suser/addAdmin
+2024-11-28 15:15:23 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg3MTA3LCJleHAiOjE3MzMxNDcxMDd9.0WF5DmtSXbhiFyO6t__95nn5xs069pspmcUYyzKHO_4
+2024-11-28 15:15:23 - Secured GET /suser/addAdmin
+2024-11-28 15:15:25 - Securing GET /suser
+2024-11-28 15:15:25 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg3MTA3LCJleHAiOjE3MzMxNDcxMDd9.0WF5DmtSXbhiFyO6t__95nn5xs069pspmcUYyzKHO_4
+2024-11-28 15:15:25 - Secured GET /suser
+2024-11-28 15:15:25 - role is ADMIN
+2024-11-28 15:15:26 - Securing GET /suser/addUser
+2024-11-28 15:15:26 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg3MTA3LCJleHAiOjE3MzMxNDcxMDd9.0WF5DmtSXbhiFyO6t__95nn5xs069pspmcUYyzKHO_4
+2024-11-28 15:15:26 - Secured GET /suser/addUser
+2024-11-28 15:15:28 - Securing GET /suser
+2024-11-28 15:15:28 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg3MTA3LCJleHAiOjE3MzMxNDcxMDd9.0WF5DmtSXbhiFyO6t__95nn5xs069pspmcUYyzKHO_4
+2024-11-28 15:15:28 - Secured GET /suser
+2024-11-28 15:15:28 - role is ADMIN
+2024-11-28 15:15:29 - Securing GET /suser/addCity
+2024-11-28 15:15:29 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg3MTA3LCJleHAiOjE3MzMxNDcxMDd9.0WF5DmtSXbhiFyO6t__95nn5xs069pspmcUYyzKHO_4
+2024-11-28 15:15:29 - Secured GET /suser/addCity
+2024-11-28 15:15:31 - Securing GET /suser
+2024-11-28 15:15:31 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg3MTA3LCJleHAiOjE3MzMxNDcxMDd9.0WF5DmtSXbhiFyO6t__95nn5xs069pspmcUYyzKHO_4
+2024-11-28 15:15:31 - Secured GET /suser
+2024-11-28 15:15:31 - role is ADMIN
+2024-11-28 15:16:05 - Starting SecurityapiApplication using Java 21.0.3 with PID 12868 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 15:16:05 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 15:16:10 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 15:16:11 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 15:16:12 - Started SecurityapiApplication in 7.604 seconds (process running for 8.524)
+2024-11-28 15:16:16 - Securing GET /logout
+2024-11-28 15:16:16 - Logging out [null]
+2024-11-28 15:16:16 - Redirecting to /signin?logout
+2024-11-28 15:16:16 - Securing GET /signin?logout
+2024-11-28 15:16:16 - token inside jwtFilter is : 
+2024-11-28 15:16:16 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:16:16 - Secured GET /signin?logout
+2024-11-28 15:16:16 - Securing GET /logout
+2024-11-28 15:16:16 - Logging out [null]
+2024-11-28 15:16:16 - Redirecting to /signin?logout
+2024-11-28 15:16:16 - Securing GET /signin?logout
+2024-11-28 15:16:16 - token inside jwtFilter is : 
+2024-11-28 15:16:16 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:16:16 - Secured GET /signin?logout
+2024-11-28 15:16:21 - Securing POST /signin
+2024-11-28 15:16:21 - token inside jwtFilter is : 
+2024-11-28 15:16:21 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:16:21 - Secured POST /signin
+2024-11-28 15:16:23 - Authenticated user
+2024-11-28 15:16:24 - token is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg3MTgzLCJleHAiOjE3MzMxNDcxODN9.naLipQJyTlNK_jkzKXYffK5z-Zlb1qQ1anrTxKUcces
+2024-11-28 15:16:24 - Securing GET /suser
+2024-11-28 15:16:24 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg3MTgzLCJleHAiOjE3MzMxNDcxODN9.naLipQJyTlNK_jkzKXYffK5z-Zlb1qQ1anrTxKUcces
+2024-11-28 15:16:24 - Secured GET /suser
+2024-11-28 15:16:24 - role is ADMIN
+2024-11-28 15:47:41 - Starting SecurityapiApplication using Java 21.0.3 with PID 2272 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 15:47:41 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 15:47:46 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 15:47:47 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 15:47:48 - Started SecurityapiApplication in 7.422 seconds (process running for 8.485)
+2024-11-28 15:47:48 - Securing GET /logout
+2024-11-28 15:47:48 - Logging out [null]
+2024-11-28 15:47:48 - Redirecting to /signin?logout
+2024-11-28 15:47:48 - Securing GET /signin?logout
+2024-11-28 15:47:48 - token inside jwtFilter is : 
+2024-11-28 15:47:48 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:47:48 - Secured GET /signin?logout
+2024-11-28 15:47:55 - Securing POST /signin
+2024-11-28 15:47:55 - token inside jwtFilter is : 
+2024-11-28 15:47:55 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:47:55 - Secured POST /signin
+2024-11-28 15:47:57 - Authenticated user
+2024-11-28 15:47:57 - token is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5MDc3LCJleHAiOjE3MzMxNDkwNzd9.oaxdDQ9xATDO-Vaphun2kSK_0eBHM4dIT4mZ1NJBJ-Q
+2024-11-28 15:47:57 - Securing GET /suser
+2024-11-28 15:47:57 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5MDc3LCJleHAiOjE3MzMxNDkwNzd9.oaxdDQ9xATDO-Vaphun2kSK_0eBHM4dIT4mZ1NJBJ-Q
+2024-11-28 15:47:58 - Secured GET /suser
+2024-11-28 15:47:58 - role is ADMIN
+2024-11-28 15:49:07 - Starting SecurityapiApplication using Java 21.0.3 with PID 19472 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 15:49:07 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 15:49:12 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 15:49:12 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 15:49:13 - Started SecurityapiApplication in 6.286 seconds (process running for 7.149)
+2024-11-28 15:49:21 - Starting SecurityapiApplication using Java 21.0.3 with PID 13984 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 15:49:21 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 15:49:27 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 15:49:27 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 15:49:28 - Started SecurityapiApplication in 7.577 seconds (process running for 8.743)
+2024-11-28 15:49:32 - Securing GET /logout
+2024-11-28 15:49:32 - Logging out [null]
+2024-11-28 15:49:32 - Redirecting to /signin?logout
+2024-11-28 15:49:32 - Securing GET /signin?logout
+2024-11-28 15:49:32 - token inside jwtFilter is : 
+2024-11-28 15:49:32 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:49:32 - Secured GET /signin?logout
+2024-11-28 15:49:37 - Securing POST /signin
+2024-11-28 15:49:37 - token inside jwtFilter is : 
+2024-11-28 15:49:37 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:49:37 - Secured POST /signin
+2024-11-28 15:49:39 - Authenticated user
+2024-11-28 15:49:39 - token is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5MTc5LCJleHAiOjE3MzMxNDkxNzl9._lrCbd9UyOvFDrSl2PJMJY1KvpT2DhxrTkN8PkIQ8SM
+2024-11-28 15:49:39 - Securing GET /suser
+2024-11-28 15:49:39 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5MTc5LCJleHAiOjE3MzMxNDkxNzl9._lrCbd9UyOvFDrSl2PJMJY1KvpT2DhxrTkN8PkIQ8SM
+2024-11-28 15:49:39 - Secured GET /suser
+2024-11-28 15:49:39 - role is ADMIN
+2024-11-28 15:50:02 - Starting SecurityapiApplication using Java 21.0.3 with PID 20520 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 15:50:02 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 15:50:08 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 15:50:08 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 15:50:09 - Started SecurityapiApplication in 7.688 seconds (process running for 8.559)
+2024-11-28 15:50:09 - Securing GET /logout
+2024-11-28 15:50:09 - Logging out [null]
+2024-11-28 15:50:09 - Redirecting to /signin?logout
+2024-11-28 15:50:09 - Securing GET /signin?logout
+2024-11-28 15:50:09 - token inside jwtFilter is : 
+2024-11-28 15:50:09 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:50:09 - Secured GET /signin?logout
+2024-11-28 15:50:14 - Securing POST /signin
+2024-11-28 15:50:14 - token inside jwtFilter is : 
+2024-11-28 15:50:14 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:50:14 - Secured POST /signin
+2024-11-28 15:50:16 - Authenticated user
+2024-11-28 15:50:16 - token is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5MjE2LCJleHAiOjE3MzMxNDkyMTZ9.oLsrWthYvMnE28t3dfc1j1pNGbuw4-ojGmZUy8_n7Is
+2024-11-28 15:50:16 - Securing GET /suser
+2024-11-28 15:50:16 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5MjE2LCJleHAiOjE3MzMxNDkyMTZ9.oLsrWthYvMnE28t3dfc1j1pNGbuw4-ojGmZUy8_n7Is
+2024-11-28 15:50:16 - Secured GET /suser
+2024-11-28 15:50:16 - role is ADMIN
+2024-11-28 15:50:30 - Securing GET /suser/addCity
+2024-11-28 15:50:30 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5MjE2LCJleHAiOjE3MzMxNDkyMTZ9.oLsrWthYvMnE28t3dfc1j1pNGbuw4-ojGmZUy8_n7Is
+2024-11-28 15:50:30 - Secured GET /suser/addCity
+2024-11-28 15:50:39 - Securing POST /suser/addCity
+2024-11-28 15:50:39 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5MjE2LCJleHAiOjE3MzMxNDkyMTZ9.oLsrWthYvMnE28t3dfc1j1pNGbuw4-ojGmZUy8_n7Is
+2024-11-28 15:50:39 - Secured POST /suser/addCity
+2024-11-28 15:51:01 - Securing POST /suser/addCity
+2024-11-28 15:51:01 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5MjE2LCJleHAiOjE3MzMxNDkyMTZ9.oLsrWthYvMnE28t3dfc1j1pNGbuw4-ojGmZUy8_n7Is
+2024-11-28 15:51:01 - Secured POST /suser/addCity
+2024-11-28 15:51:12 - Securing GET /suser/addCity
+2024-11-28 15:51:12 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5MjE2LCJleHAiOjE3MzMxNDkyMTZ9.oLsrWthYvMnE28t3dfc1j1pNGbuw4-ojGmZUy8_n7Is
+2024-11-28 15:51:12 - Secured GET /suser/addCity
+2024-11-28 15:51:14 - Securing GET /suser
+2024-11-28 15:51:14 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5MjE2LCJleHAiOjE3MzMxNDkyMTZ9.oLsrWthYvMnE28t3dfc1j1pNGbuw4-ojGmZUy8_n7Is
+2024-11-28 15:51:14 - Secured GET /suser
+2024-11-28 15:51:14 - role is ADMIN
+2024-11-28 15:51:17 - Securing GET /logout
+2024-11-28 15:51:17 - Logging out [null]
+2024-11-28 15:51:17 - Redirecting to /signin?logout
+2024-11-28 15:51:17 - Securing GET /signin?logout
+2024-11-28 15:51:17 - token inside jwtFilter is : 
+2024-11-28 15:51:17 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:51:17 - Secured GET /signin?logout
+2024-11-28 15:51:19 - Securing GET /suser
+2024-11-28 15:51:19 - token inside jwtFilter is : 
+2024-11-28 15:51:19 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:51:24 - Securing GET /suser/addCity
+2024-11-28 15:51:24 - token inside jwtFilter is : 
+2024-11-28 15:51:24 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:51:25 - Securing GET /suser/addCity
+2024-11-28 15:51:25 - token inside jwtFilter is : 
+2024-11-28 15:51:25 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:51:27 - Securing GET /suser/addCity
+2024-11-28 15:51:27 - token inside jwtFilter is : 
+2024-11-28 15:51:27 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:51:29 - Securing GET /suser
+2024-11-28 15:51:29 - token inside jwtFilter is : 
+2024-11-28 15:51:29 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:51:30 - Securing GET /signin?logout
+2024-11-28 15:51:30 - token inside jwtFilter is : 
+2024-11-28 15:51:30 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:51:30 - Secured GET /signin?logout
+2024-11-28 15:51:34 - Securing POST /signin
+2024-11-28 15:51:34 - token inside jwtFilter is : 
+2024-11-28 15:51:34 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:51:34 - Secured POST /signin
+2024-11-28 15:51:35 - Authenticated user
+2024-11-28 15:51:35 - token is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODkyOTUsImV4cCI6MTczMzE0OTI5NX0.PuvrYHea-3Mex9pYKzolPGSNOGFNnF4xG82fKcIm_oI
+2024-11-28 15:51:35 - Securing GET /suser
+2024-11-28 15:51:35 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3ODkyOTUsImV4cCI6MTczMzE0OTI5NX0.PuvrYHea-3Mex9pYKzolPGSNOGFNnF4xG82fKcIm_oI
+2024-11-28 15:51:35 - Secured GET /suser
+2024-11-28 15:51:35 - role is USER
+2024-11-28 15:51:42 - Securing GET /logout
+2024-11-28 15:51:42 - Logging out [null]
+2024-11-28 15:51:42 - Redirecting to /signin?logout
+2024-11-28 15:51:42 - Securing GET /signin?logout
+2024-11-28 15:51:42 - token inside jwtFilter is : 
+2024-11-28 15:51:42 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:51:42 - Secured GET /signin?logout
+2024-11-28 15:51:46 - Securing POST /signin
+2024-11-28 15:51:46 - token inside jwtFilter is : 
+2024-11-28 15:51:46 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:51:46 - Secured POST /signin
+2024-11-28 15:51:47 - Authenticated user
+2024-11-28 15:51:47 - token is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5MzA3LCJleHAiOjE3MzMxNDkzMDd9.m-Yu19-LS1GQ_zXx3EjKXK6KiUciQ4rnMzraF6715H4
+2024-11-28 15:51:47 - Securing GET /suser
+2024-11-28 15:51:47 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5MzA3LCJleHAiOjE3MzMxNDkzMDd9.m-Yu19-LS1GQ_zXx3EjKXK6KiUciQ4rnMzraF6715H4
+2024-11-28 15:51:47 - Secured GET /suser
+2024-11-28 15:51:47 - role is ADMIN
+2024-11-28 15:52:13 - Starting SecurityapiApplication using Java 21.0.3 with PID 11668 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 15:52:13 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 15:52:18 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 15:52:19 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 15:52:19 - Started SecurityapiApplication in 7.266 seconds (process running for 8.522)
+2024-11-28 15:52:20 - Securing GET /logout
+2024-11-28 15:52:20 - Logging out [null]
+2024-11-28 15:52:20 - Redirecting to /signin?logout
+2024-11-28 15:52:20 - Securing GET /signin?logout
+2024-11-28 15:52:20 - token inside jwtFilter is : 
+2024-11-28 15:52:20 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:52:20 - Secured GET /signin?logout
+2024-11-28 15:52:26 - Securing POST /signin
+2024-11-28 15:52:26 - token inside jwtFilter is : 
+2024-11-28 15:52:26 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:52:26 - Secured POST /signin
+2024-11-28 15:52:28 - Authenticated user
+2024-11-28 15:52:28 - token is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5MzQ4LCJleHAiOjE3MzMxNDkzNDh9.vqtl372p3MYMhA7GOchaN--D3xcFkt9yqurOfdanU30
+2024-11-28 15:52:28 - Securing GET /suser
+2024-11-28 15:52:28 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5MzQ4LCJleHAiOjE3MzMxNDkzNDh9.vqtl372p3MYMhA7GOchaN--D3xcFkt9yqurOfdanU30
+2024-11-28 15:52:29 - Secured GET /suser
+2024-11-28 15:52:29 - role is ADMIN
+2024-11-28 15:56:05 - Starting SecurityapiApplication using Java 21.0.3 with PID 20676 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 15:56:05 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 15:56:10 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 15:56:10 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 15:56:11 - Started SecurityapiApplication in 6.763 seconds (process running for 7.88)
+2024-11-28 15:56:12 - Securing GET /logout
+2024-11-28 15:56:12 - Logging out [null]
+2024-11-28 15:56:12 - Redirecting to /signin?logout
+2024-11-28 15:56:12 - Securing GET /signin?logout
+2024-11-28 15:56:12 - token inside jwtFilter is : 
+2024-11-28 15:56:12 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:56:12 - Secured GET /signin?logout
+2024-11-28 15:56:17 - Securing POST /signin
+2024-11-28 15:56:17 - token inside jwtFilter is : 
+2024-11-28 15:56:17 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:56:17 - Secured POST /signin
+2024-11-28 15:56:19 - Authenticated user
+2024-11-28 15:56:20 - token is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5NTc5LCJleHAiOjE3MzMxNDk1Nzl9.NngXP2EbYIKcdHtefam14KltIF0KzFiCOnZSChEzkcs
+2024-11-28 15:56:20 - Securing GET /suser
+2024-11-28 15:56:20 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5NTc5LCJleHAiOjE3MzMxNDk1Nzl9.NngXP2EbYIKcdHtefam14KltIF0KzFiCOnZSChEzkcs
+2024-11-28 15:56:20 - Secured GET /suser
+2024-11-28 15:56:20 - role is ADMIN
+2024-11-28 15:56:43 - Securing GET /logout
+2024-11-28 15:56:43 - Logging out [null]
+2024-11-28 15:56:43 - Redirecting to /signin?logout
+2024-11-28 15:56:43 - Securing GET /signin?logout
+2024-11-28 15:56:43 - token inside jwtFilter is : 
+2024-11-28 15:56:43 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:56:43 - Secured GET /signin?logout
+2024-11-28 15:57:21 - Starting SecurityapiApplication using Java 21.0.3 with PID 3656 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 15:57:21 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 15:57:26 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 15:57:26 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 15:57:27 - Started SecurityapiApplication in 6.271 seconds (process running for 7.178)
+2024-11-28 15:57:27 - Securing POST /signin
+2024-11-28 15:57:27 - token inside jwtFilter is : 
+2024-11-28 15:57:27 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:57:27 - Secured POST /signin
+2024-11-28 15:57:29 - Authenticated user
+2024-11-28 15:57:30 - token is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5NjQ5LCJleHAiOjE3MzMxNDk2NDl9.jyL41BaS_sduIt-wFkbPxvRAn7X97Yx2zmhPSNTKVec
+2024-11-28 15:57:30 - Securing GET /suser
+2024-11-28 15:57:30 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5NjQ5LCJleHAiOjE3MzMxNDk2NDl9.jyL41BaS_sduIt-wFkbPxvRAn7X97Yx2zmhPSNTKVec
+2024-11-28 15:57:30 - Secured GET /suser
+2024-11-28 15:57:30 - role is ADMIN
+2024-11-28 15:58:04 - Starting SecurityapiApplication using Java 21.0.3 with PID 17728 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 15:58:04 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 15:58:09 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 15:58:10 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 15:58:10 - Started SecurityapiApplication in 7.002 seconds (process running for 7.922)
+2024-11-28 15:58:11 - Securing GET /logout
+2024-11-28 15:58:11 - Logging out [null]
+2024-11-28 15:58:11 - Redirecting to /signin?logout
+2024-11-28 15:58:11 - Securing GET /signin?logout
+2024-11-28 15:58:11 - token inside jwtFilter is : 
+2024-11-28 15:58:11 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:58:11 - Secured GET /signin?logout
+2024-11-28 15:58:17 - Securing POST /signin
+2024-11-28 15:58:17 - token inside jwtFilter is : 
+2024-11-28 15:58:17 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 15:58:17 - Secured POST /signin
+2024-11-28 15:58:19 - Authenticated user
+2024-11-28 15:58:19 - token is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5Njk5LCJleHAiOjE3MzMxNDk2OTl9.TUtFrevkzcLPTNvrwKm2ZmW4xz5zaVDIlgunZo9pUjw
+2024-11-28 15:58:19 - Securing GET /suser
+2024-11-28 15:58:19 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzg5Njk5LCJleHAiOjE3MzMxNDk2OTl9.TUtFrevkzcLPTNvrwKm2ZmW4xz5zaVDIlgunZo9pUjw
+2024-11-28 15:58:20 - Secured GET /suser
+2024-11-28 15:58:20 - role is ADMIN
+2024-11-28 16:06:02 - Securing GET /logout
+2024-11-28 16:06:02 - Logging out [null]
+2024-11-28 16:06:02 - Redirecting to /signin?logout
+2024-11-28 16:06:02 - Securing GET /signin?logout
+2024-11-28 16:06:02 - token inside jwtFilter is : 
+2024-11-28 16:06:02 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 16:06:02 - Secured GET /signin?logout
+2024-11-28 16:07:33 - Starting SecurityapiApplication using Java 21.0.3 with PID 19428 (C:\Cred_Ai_WS\securityapi\target\classes started by Athul Benny in C:\Cred_Ai_WS\securityapi)
+2024-11-28 16:07:33 - No active profile set, falling back to 1 default profile: "default"
+2024-11-28 16:07:39 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-28 16:07:39 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-28 16:07:40 - Started SecurityapiApplication in 7.908 seconds (process running for 9.365)
+2024-11-28 16:08:59 - Securing GET /signup
+2024-11-28 16:08:59 - token inside jwtFilter is : 
+2024-11-28 16:08:59 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 16:08:59 - Secured GET /signup
+2024-11-28 16:09:56 - Securing GET /signin
+2024-11-28 16:09:56 - token inside jwtFilter is : 
+2024-11-28 16:09:56 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 16:09:56 - Secured GET /signin
+2024-11-28 16:10:01 - Securing POST /signin
+2024-11-28 16:10:01 - token inside jwtFilter is : 
+2024-11-28 16:10:01 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 16:10:01 - Secured POST /signin
+2024-11-28 16:10:03 - Authenticated user
+2024-11-28 16:10:03 - token is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzkwNDAzLCJleHAiOjE3MzMxNTA0MDN9.JFvy8Gx2d_OB_Zd9AYrIoQBT3bqCpf2pU1eYKbL9VQE
+2024-11-28 16:10:03 - Securing GET /suser
+2024-11-28 16:10:03 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzkwNDAzLCJleHAiOjE3MzMxNTA0MDN9.JFvy8Gx2d_OB_Zd9AYrIoQBT3bqCpf2pU1eYKbL9VQE
+2024-11-28 16:10:04 - Secured GET /suser
+2024-11-28 16:10:04 - role is ADMIN
+2024-11-28 16:10:28 - Securing GET /suser/addCity
+2024-11-28 16:10:28 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzkwNDAzLCJleHAiOjE3MzMxNTA0MDN9.JFvy8Gx2d_OB_Zd9AYrIoQBT3bqCpf2pU1eYKbL9VQE
+2024-11-28 16:10:28 - Secured GET /suser/addCity
+2024-11-28 16:11:48 - Securing GET /suser
+2024-11-28 16:11:48 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzkwNDAzLCJleHAiOjE3MzMxNTA0MDN9.JFvy8Gx2d_OB_Zd9AYrIoQBT3bqCpf2pU1eYKbL9VQE
+2024-11-28 16:11:48 - Secured GET /suser
+2024-11-28 16:11:48 - role is ADMIN
+2024-11-28 16:11:57 - Securing GET /suser/addLocation
+2024-11-28 16:11:57 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzkwNDAzLCJleHAiOjE3MzMxNTA0MDN9.JFvy8Gx2d_OB_Zd9AYrIoQBT3bqCpf2pU1eYKbL9VQE
+2024-11-28 16:11:57 - Secured GET /suser/addLocation
+2024-11-28 16:11:57 - city list is [DELHI, BANGALORE, MUMBAI, NEW DELHI]
+2024-11-28 16:12:53 - Securing POST /suser/getWeather
+2024-11-28 16:12:53 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzkwNDAzLCJleHAiOjE3MzMxNTA0MDN9.JFvy8Gx2d_OB_Zd9AYrIoQBT3bqCpf2pU1eYKbL9VQE
+2024-11-28 16:12:53 - Secured POST /suser/getWeather
+2024-11-28 16:13:20 - Securing GET /suser
+2024-11-28 16:13:20 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huIiwiaWF0IjoxNzMyNzkwNDAzLCJleHAiOjE3MzMxNTA0MDN9.JFvy8Gx2d_OB_Zd9AYrIoQBT3bqCpf2pU1eYKbL9VQE
+2024-11-28 16:13:20 - Secured GET /suser
+2024-11-28 16:13:20 - role is ADMIN
+2024-11-28 16:13:26 - Securing GET /logout
+2024-11-28 16:13:26 - Logging out [null]
+2024-11-28 16:13:26 - Redirecting to /signin?logout
+2024-11-28 16:13:26 - Securing GET /signin?logout
+2024-11-28 16:13:26 - token inside jwtFilter is : 
+2024-11-28 16:13:26 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 16:13:26 - Secured GET /signin?logout
+2024-11-28 16:13:30 - Securing POST /signin
+2024-11-28 16:13:30 - token inside jwtFilter is : 
+2024-11-28 16:13:30 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 16:13:30 - Secured POST /signin
+2024-11-28 16:13:31 - Authenticated user
+2024-11-28 16:13:31 - token is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3OTA2MTEsImV4cCI6MTczMzE1MDYxMX0.Ufdn-2-WqGr_tmslCZ6t5gZVgbDh8tiztvea_WvCeJE
+2024-11-28 16:13:31 - Securing GET /suser
+2024-11-28 16:13:31 - token inside jwtFilter is : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW0iLCJpYXQiOjE3MzI3OTA2MTEsImV4cCI6MTczMzE1MDYxMX0.Ufdn-2-WqGr_tmslCZ6t5gZVgbDh8tiztvea_WvCeJE
+2024-11-28 16:13:31 - Secured GET /suser
+2024-11-28 16:13:31 - role is USER
+2024-11-28 16:15:41 - Securing GET /logout
+2024-11-28 16:15:41 - Logging out [null]
+2024-11-28 16:15:41 - Redirecting to /signin?logout
+2024-11-28 16:15:41 - Securing GET /signin?logout
+2024-11-28 16:15:41 - token inside jwtFilter is : 
+2024-11-28 16:15:41 - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-28 16:15:41 - Secured GET /signin?logout

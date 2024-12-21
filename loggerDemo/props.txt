@@ -1,0 +1,88 @@
+In Spring Boot, values defined in the application.properties (or application.yml) file can be accessed in your code in several ways. Here are the most common methods:
+
+1. Using @Value Annotation
+You can inject property values directly into your Spring components using the @Value annotation.
+
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class MyComponent {
+
+    @Value("${my.custom.property}")
+    private String myProperty;
+
+    public void printProperty() {
+        System.out.println(myProperty);
+    }
+}
+
+////////////////////////////////////////////////////////////////////////
+2. Using @ConfigurationProperties
+For grouping related properties, it's often cleaner to use the @ConfigurationProperties annotation. This approach allows you to bind a class to a set of properties.
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+@Component
+@ConfigurationProperties(prefix = "app")
+public class AppProperties {
+
+    private String customProperty;
+
+    public String getCustomProperty() {
+        return customProperty;
+    }
+
+    public void setCustomProperty(String customProperty) {
+        this.customProperty = customProperty;
+    }
+}
+In your application.properties:
+
+app.custom-property=myValue
+
+
+//////////////////////////////////////////////////////////////////////////////////
+3. Using Environment Interface
+You can also use the Environment interface to access properties programmatically.
+
+java
+Copy code
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
+import org.springframework.stereotype.Component;
+
+@Component
+public class MyComponent {
+
+    @Autowired
+    private Environment env;
+
+    public void printProperty() {
+        String myProperty = env.getProperty("my.custom.property");
+        System.out.println(myProperty);
+    }
+}
+
+////////////////////////////////////////////////////////////////////////
+4. Using @PostConstruct for Initialization
+If you need to perform some logic after all properties have been set, you can use the @PostConstruct annotation.
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+
+@Component
+public class MyComponent {
+
+    @Value("${my.custom.property}")
+    private String myProperty;
+
+    @PostConstruct
+    public void init() {
+        System.out.println("Property value: " + myProperty);
+    }
+}

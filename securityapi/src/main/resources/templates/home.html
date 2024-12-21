@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+
+        .container {
+            max-width: 1500px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .time {
+            font-size: 18px;
+            color: #666;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            gap: 20px;
+            justify-items: center;
+            margin-top: 30px;
+        }
+
+        .buttons a {
+            text-decoration: none;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            width: 110%; 
+            box-sizing: border-box; 
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .logout-btn {
+            background-color: #f44336;
+        }
+
+        .logout-btn:hover {
+            background-color: #e53935;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .buttons {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+            button {
+                padding: 10px;
+            }
+        }
+
+        .buttons .button-container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function updateTime() {
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            const timeString = `${hours}:${minutes}:${seconds}`;
+            document.getElementById('current-time').textContent = timeString;
+        }
+
+        // Update the time every second
+        setInterval(updateTime, 1000);
+
+        // Set the initial time immediately when the page loads
+        updateTime();
+    </script>
+
+    <div class="container">
+        <h1>Welcome to the <span th:text="${role}">role</span> Panel</h1>
+
+        <p class="time"><strong>Current Time: </strong><span id="current-time"></span></p>
+
+        <div class="buttons">
+            <div class="button-container">
+                <a href="#" th:href="@{/logout}">
+                    <button class="logout-btn">Logout</button>
+                </a>
+            </div>
+
+            <!-- Admin only buttons -->
+            <div th:if="${role == 'ADMIN'}">
+                <div class="button-container">
+                    <a href="#" th:href="@{/suser/addAdmin}">
+                        <button>Add New Admin</button>
+                    </a>
+                </div>
+				<br>
+                <div class="button-container">
+                    <a href="#" th:href="@{/suser/addUser}">
+                        <button>Add New User</button>
+                    </a>
+                </div>
+				<br>
+                <div class="button-container">
+                    <a href="#" th:href="@{/suser/addCity}">
+                        <button>Add/Remove City</button>
+                    </a>
+                </div>
+            </div>
+
+            <div th:if="${role == 'USER' || role == 'ADMIN'}">
+                <div class="button-container">
+                    <a href="#" th:href="@{/suser/addLocation}">
+                        <button>Check Weather</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

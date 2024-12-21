@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>City Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+        }
+
+        h2 {
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+ 		.back-button {
+            width: 45%;  /* Make the back button smaller */
+            padding: 10px 0px 12px 0px;  /* Reduce padding */
+            border: none;
+            color: white;
+            font-size: 14px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block; /* Ensure it's a block-level element for centering */
+            margin: 0 auto; /* Center horizontally */
+        }
+        
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+        
+        .error-message {
+            color: red;
+            font-size: 14px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>City Management</h2>
+
+        <form action="#" th:action="@{/suser/addCity}" th:object="${city}" method="post">
+            <!-- Dropdown for selecting Add/Remove action -->
+            <label for="action">Select Action:</label>
+            <select id="action" th:field="*{action}" required>
+                <option value="add">Add City</option>
+                <option value="remove">Remove City</option>
+            </select>
+            <br><br>
+
+            <!-- Input field for city name -->
+            <label for="city">City Name:</label>
+            <input type="text" id="city" th:field="*{cityName}" placeholder="Enter city name" required />
+            <br><br>
+			<span th:text="${error}" class="error-message">error</span>
+            <button type="submit">Submit</button>
+        </form>
+        
+        <div>
+            <a href="/suser" class="back-button">Back to Dashboard</a>
+        </div>
+    </div>
+
+</body>
+</html>

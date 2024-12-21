@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        .weather-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .weather-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .weather-header h1 {
+            color: #4CAF50;
+        }
+
+        .weather-detail {
+            margin-bottom: 20px;
+        }
+
+        .weather-detail strong {
+            font-size: 16px;
+            color: #333;
+        }
+
+        .weather-detail p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .weather-info {
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .error-message {
+            color: red;
+            font-size: 14px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+         .back-button {
+            width: 45%;  /* Make the back button smaller */
+            padding: 10px 0px 12px 0px;  /* Reduce padding */
+            border: none;
+            color: white;
+            font-size: 14px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block; /* Ensure it's a block-level element for centering */
+            margin: 0 auto; /* Center horizontally */
+        }
+
+        .search-form {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .search-form input {
+            padding: 10px;
+            font-size: 16px;
+            width: 70%;
+            margin-right: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .search-form button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .search-form button:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="weather-container">
+        <div class="weather-header">
+            <h1>Weather Details</h1>
+            <h2 th:text="${name}">city name</h2>
+        </div>
+        <!-- Display Weather Details -->
+        <span th:text="${error}" class="error-message">error</span>
+        
+        <div th:if="${weatherList != null}">
+            <!-- Weather Condition -->
+            <div class="weather-info">
+                <div class="weather-detail">
+                    <strong>Weather:</strong>
+                    <p th:text="${weatherList.get(0).main}">Haze</p>
+                </div>
+
+                <div class="weather-detail">
+                    <strong>Description:</strong>
+                    <p th:text="${weatherList.get(0).description}">Haze</p>
+                </div>
+            </div>
+
+            <!-- Main Weather Details -->
+            <div class="weather-info">
+                <div class="weather-detail">
+                    <strong>Temperature:</strong>
+                    <p th:text="${mainWeather.temp}">299.17 K</p>
+                </div>
+
+                <div class="weather-detail">
+                    <strong>Pressure:</strong>
+                    <p th:text="${mainWeather.pressure}">1012 hPa</p>
+                </div>
+
+                <div class="weather-detail">
+                    <strong>Humidity:</strong>
+                    <p th:text="${mainWeather.humidity}">60%</p>
+                </div>
+            </div>
+
+            <!-- Wind Details -->
+            <div class="weather-info">
+                <div class="weather-detail">
+                    <strong>Wind Speed:</strong>
+                    <p th:text="${wind.speed}">2.06 m/s</p>
+                </div>
+
+                <div class="weather-detail">
+                    <strong>Wind Direction:</strong>
+                    <p th:text="${wind.deg}">30°</p>
+                </div>
+            </div>
+        </div>
+		<div>
+            <a href="/suser" class="back-button">Back to Dashboard</a>
+        </div>
+    </div>
+
+</body>
+</html>
